@@ -1,22 +1,30 @@
+:root {
+  --primary: #71b0b1;
+  --dark: #131e05;
+  --medium: #72b7ac;
+  --light: #fcecff;
+}
+
 .app {
+  background-color: var(--light);
   text-align: center;
 }
 
 #dinosaur-list-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  background-color: cornflowerblue;
+  background-color: var(--medium);
 }
 
 .dinosaur-item-container {
   padding: 10px;
   margin: 25px;
-  background-color: white;
+  background-color: var(--light);
   border-radius: 10px;
   box-shadow: 3px 3px 15px -5px;
   text-align: center;
 }
 
 .dino-image {
-  width: 150px;
+  height: 100px;
 }
